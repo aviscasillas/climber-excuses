@@ -1,0 +1,11 @@
+/*
+ *= require_self
+ *= require_tree .
+ */
+body {
+  font-family: tahoma;
+}
+
+#content {
+  text-align: center;
+}
