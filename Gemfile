@@ -41,3 +41,6 @@ gem 'mongoid', git: 'git://github.com/mongoid/mongoid.git'
 
 # Use slim template creation instead ERB
 gem 'slim-rails'
+
+# Client language
+gem 'http_accept_language'
