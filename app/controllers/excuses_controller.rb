@@ -6,6 +6,6 @@ class ExcusesController < ApplicationController
   end
 
   def rnd
-    @msg = Excuse.find_rnd.msg['es']
+    @msg = Excuse.find_rnd.msg[I18n.locale.to_s]
   end
 end
