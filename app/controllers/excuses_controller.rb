@@ -6,6 +6,6 @@ class ExcusesController < ApplicationController
   end
 
   def rnd
-    @excuse = Excuse.find_rnd
+    @msg = Excuse.find_rnd.msg['es']
   end
 end
