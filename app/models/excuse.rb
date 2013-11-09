@@ -1,9 +1,10 @@
 class Excuse
   include Mongoid::Document
-  field :lang, type: Symbol, default: :es 
-  field :description, type: String
+  
+  # Hash like { lang => msg }
+  field :msg, type: Hash 
 
   def self.find_rnd
-    where(lang: :es).sample 
+    all.sample 
   end
 end

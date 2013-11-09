@@ -1,5 +1,2 @@
 #main-excuse
-  - if @excuse
-    = @excuse.description
-  - else
-    No excuses available
+  = @msg || 'No excuses available'
