@@ -44,3 +44,6 @@ gem 'slim-rails'
 
 # Client language
 gem 'http_accept_language'
+
+# For social network sharing
+gem 'social-share-button'
