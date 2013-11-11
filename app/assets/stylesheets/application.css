@@ -3,9 +3,17 @@
  *= require_tree .
  */
 body {
-  font-family: tahoma;
+  font-family: Courier;
 }
 
 #content {
   text-align: center;
+}
+
+#footer {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  bottom: 10px;
+  font-size: 11px;
 }
