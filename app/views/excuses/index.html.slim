@@ -1,2 +1,10 @@
 - @excuses.each do |excuse|
-  p = excuse.msg
+  .excuse
+    = form_for excuse, remote: true do |f|
+      label = excuse.msg[I18n.locale.to_s]
+      = f.submit
+      .msg
+        = fields_for :msg do |ff|
+          - excuse.msg.each do |key, value|
+            div class = key
+              = ff.text_field key.to_sym, value: value
