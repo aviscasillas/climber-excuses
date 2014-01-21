@@ -3,3 +3,13 @@
   font-size: 24pt;
   font-weight: bold;
 }
+
+.excuse {
+  border: 1px solid;
+  .msg {
+    font-size: 10pt;
+    input[type=text]{
+      width: 500px;
+    }
+  }
+}
