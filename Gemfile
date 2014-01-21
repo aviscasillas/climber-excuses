@@ -47,3 +47,6 @@ gem 'http_accept_language'
 
 # For social network sharing
 gem 'social-share-button'
+
+# Authentication solution
+gem 'devise'
